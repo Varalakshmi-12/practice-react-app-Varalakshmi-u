@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+.profile-container {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.profile-card {
+  background-color: gray;
+  border: 5px solid #ddd;
+  padding: 50px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
